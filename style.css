@@ -79,32 +79,4 @@ body {
 .meta-sep { 
   height: 4px; 
   background: linear-gradient(90deg, var(--primary), var(--accent)); 
-  width: 70%; 
-  margin: 12px 0; 
-  border-radius: 4px; 
-  opacity: 0.15; 
-}
-
-.summary { font-size: 16px; color: #333; line-height: 1.8; text-align: justify; margin-bottom: 24px; }
-
-.side-row { display: flex; gap: 28px; flex-wrap: wrap; }
-
-.box { background: #fff; padding: 18px; border-radius: 8px; box-shadow: 0 6px 20px rgba(20, 40, 60, 0.03); flex: 1; min-width: 250px; }
-
-.box h4 { color: var(--primary); margin-bottom: 10px; font-size: 15px; }
-
-.skills-list { display: flex; flex-direction: column; gap: 12px; }
-
-.skill { font-size: 14px; color: #333; font-weight: 600; }
-
-.progress { height: 8px; background: #e6eef6; border-radius: 8px; overflow: hidden; margin-top: 6px; }
-
-.progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); }
-
-.projects a { color: var(--primary); text-decoration: none; font-weight: 600; }
-
-@media (max-width: 900px) {
-  .wrap { grid-template-columns: 1fr; }
-  .left { border-right: none; border-bottom: 1px solid rgba(31, 111, 149, 0.04); }
-  .right { padding: 22px; }
-}
+  width: 70%;
